@@ -14,6 +14,20 @@
 		F02F1EA5213C25FC0059ABAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02F1EA3213C25FC0059ABAE /* LaunchScreen.storyboard */; };
 		F02F1EB0213C25FC0059ABAE /* ShareKit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EAF213C25FC0059ABAE /* ShareKit_DemoTests.swift */; };
 		F02F1EBB213C25FC0059ABAE /* ShareKit_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EBA213C25FC0059ABAE /* ShareKit_DemoUITests.swift */; };
+		F02F1ECC213C26320059ABAE /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1ECB213C26320059ABAE /* TencentOpenAPI.framework */; };
+		F02F1ECF213C264E0059ABAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1ECE213C264E0059ABAE /* SystemConfiguration.framework */; };
+		F02F1ED6213C26F60059ABAE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = F02F1ED3213C26F60059ABAE /* README.txt */; };
+		F02F1ED7213C26F60059ABAE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1ED5213C26F60059ABAE /* libWeChatSDK.a */; };
+		F02F1ED9213C2BDD0059ABAE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1ED8213C2BDD0059ABAE /* libz.tbd */; };
+		F02F1EDB213C2BE90059ABAE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1EDA213C2BE90059ABAE /* libsqlite3.0.tbd */; };
+		F02F1EDD213C2BF30059ABAE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1EDC213C2BF30059ABAE /* libc++.tbd */; };
+		F02F1EDF213C2BFE0059ABAE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1EDE213C2BFE0059ABAE /* Security.framework */; };
+		F02F1EE1213C2C050059ABAE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02F1EE0213C2C050059ABAE /* CoreTelephony.framework */; };
+		F02F1EE3213C2EA90059ABAE /* ShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EE2213C2EA90059ABAE /* ShareHelper.swift */; };
+		F02F1EE9213C30090059ABAE /* Shareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EE8213C30090059ABAE /* Shareable.swift */; };
+		F02F1EED213EE4A60059ABAE /* ShareableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EEC213EE4A60059ABAE /* ShareableExtension.swift */; };
+		F02F1EF121416B830059ABAE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1EF021416B830059ABAE /* Model.swift */; };
+		F02F1EF321416C900059ABAE /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = F02F1EF221416C900059ABAE /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,24 @@
 		F02F1EB6213C25FC0059ABAE /* ShareKit-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShareKit-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02F1EBA213C25FC0059ABAE /* ShareKit_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareKit_DemoUITests.swift; sourceTree = "<group>"; };
 		F02F1EBC213C25FC0059ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02F1EC9213C26320059ABAE /* ShareKit-Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShareKit-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F02F1ECB213C26320059ABAE /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		F02F1ECE213C264E0059ABAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F02F1ED1213C26F60059ABAE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F02F1ED2213C26F60059ABAE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F02F1ED3213C26F60059ABAE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F02F1ED4213C26F60059ABAE /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		F02F1ED5213C26F60059ABAE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		F02F1ED8213C2BDD0059ABAE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F02F1EDA213C2BE90059ABAE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F02F1EDC213C2BF30059ABAE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F02F1EDE213C2BFE0059ABAE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F02F1EE0213C2C050059ABAE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F02F1EE2213C2EA90059ABAE /* ShareHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareHelper.swift; sourceTree = "<group>"; };
+		F02F1EE8213C30090059ABAE /* Shareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shareable.swift; sourceTree = "<group>"; };
+		F02F1EEC213EE4A60059ABAE /* ShareableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareableExtension.swift; sourceTree = "<group>"; };
+		F02F1EF021416B830059ABAE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F02F1EF221416C900059ABAE /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02F1EE1213C2C050059ABAE /* CoreTelephony.framework in Frameworks */,
+				F02F1EDF213C2BFE0059ABAE /* Security.framework in Frameworks */,
+				F02F1EDD213C2BF30059ABAE /* libc++.tbd in Frameworks */,
+				F02F1EDB213C2BE90059ABAE /* libsqlite3.0.tbd in Frameworks */,
+				F02F1ED9213C2BDD0059ABAE /* libz.tbd in Frameworks */,
+				F02F1ECF213C264E0059ABAE /* SystemConfiguration.framework in Frameworks */,
+				F02F1ECC213C26320059ABAE /* TencentOpenAPI.framework in Frameworks */,
+				F02F1ED7213C26F60059ABAE /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				F02F1E99213C25FB0059ABAE /* ShareKit-Demo */,
+				F02F1EC8213C26320059ABAE /* ShareKit */,
+				F02F1EC9213C26320059ABAE /* ShareKit-Demo-Bridging-Header.h */,
+				F02F1ECA213C26320059ABAE /* libs */,
 				F02F1EAE213C25FC0059ABAE /* ShareKit-DemoTests */,
 				F02F1EB9213C25FC0059ABAE /* ShareKit-DemoUITests */,
 				F02F1E98213C25FB0059ABAE /* Products */,
+				F02F1ECD213C264D0059ABAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,8 @@
 			children = (
 				F02F1E9A213C25FB0059ABAE /* AppDelegate.swift */,
 				F02F1E9C213C25FB0059ABAE /* ViewController.swift */,
+				F02F1EF021416B830059ABAE /* Model.swift */,
+				F02F1EF221416C900059ABAE /* avatar.png */,
 				F02F1E9E213C25FB0059ABAE /* Main.storyboard */,
 				F02F1EA1213C25FC0059ABAE /* Assets.xcassets */,
 				F02F1EA3213C25FC0059ABAE /* LaunchScreen.storyboard */,
@@ -123,6 +169,50 @@
 				F02F1EBC213C25FC0059ABAE /* Info.plist */,
 			);
 			path = "ShareKit-DemoUITests";
+			sourceTree = "<group>";
+		};
+		F02F1EC8213C26320059ABAE /* ShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				F02F1EE2213C2EA90059ABAE /* ShareHelper.swift */,
+				F02F1EE8213C30090059ABAE /* Shareable.swift */,
+				F02F1EEC213EE4A60059ABAE /* ShareableExtension.swift */,
+			);
+			path = ShareKit;
+			sourceTree = "<group>";
+		};
+		F02F1ECA213C26320059ABAE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F02F1ED0213C26F60059ABAE /* OpenSDK1.8.3_NoPay */,
+				F02F1ECB213C26320059ABAE /* TencentOpenAPI.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F02F1ECD213C264D0059ABAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02F1EE0213C2C050059ABAE /* CoreTelephony.framework */,
+				F02F1EDE213C2BFE0059ABAE /* Security.framework */,
+				F02F1EDC213C2BF30059ABAE /* libc++.tbd */,
+				F02F1EDA213C2BE90059ABAE /* libsqlite3.0.tbd */,
+				F02F1ED8213C2BDD0059ABAE /* libz.tbd */,
+				F02F1ECE213C264E0059ABAE /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02F1ED0213C26F60059ABAE /* OpenSDK1.8.3_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				F02F1ED1213C26F60059ABAE /* WXApi.h */,
+				F02F1ED2213C26F60059ABAE /* WXApiObject.h */,
+				F02F1ED3213C26F60059ABAE /* README.txt */,
+				F02F1ED4213C26F60059ABAE /* WechatAuthSDK.h */,
+				F02F1ED5213C26F60059ABAE /* libWeChatSDK.a */,
+			);
+			path = OpenSDK1.8.3_NoPay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02F1EA5213C25FC0059ABAE /* LaunchScreen.storyboard in Resources */,
+				F02F1EF321416C900059ABAE /* avatar.png in Resources */,
 				F02F1EA2213C25FC0059ABAE /* Assets.xcassets in Resources */,
+				F02F1ED6213C26F60059ABAE /* README.txt in Resources */,
 				F02F1EA0213C25FB0059ABAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02F1E9D213C25FB0059ABAE /* ViewController.swift in Sources */,
+				F02F1EE9213C30090059ABAE /* Shareable.swift in Sources */,
+				F02F1EE3213C2EA90059ABAE /* ShareHelper.swift in Sources */,
+				F02F1EF121416B830059ABAE /* Model.swift in Sources */,
 				F02F1E9B213C25FB0059ABAE /* AppDelegate.swift in Sources */,
+				F02F1EED213EE4A60059ABAE /* ShareableExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -430,15 +526,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = "ShareKit-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/OpenSDK1.8.3_NoPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrychu.sharekit.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShareKit-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,15 +554,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = "ShareKit-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/OpenSDK1.8.3_NoPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrychu.sharekit.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShareKit-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,16 +583,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ShareKit-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareKit-Demo.app/ShareKit-Demo";
@@ -488,16 +605,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ShareKit-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareKit-Demo.app/ShareKit-Demo";
@@ -508,16 +626,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ShareKit-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ShareKit-Demo";
@@ -528,16 +647,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK6GS2WSHW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ShareKit-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.info.ShareKit-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ShareKit-Demo";
