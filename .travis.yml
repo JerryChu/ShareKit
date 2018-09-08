@@ -1,0 +1,5 @@
+language: swift
+xcode_project: ShareKit-Demo.xcodeproj
+xcode_scheme: ShareKit-Demo 
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+
