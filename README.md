@@ -1,5 +1,7 @@
 ## ShareKit
 封装第三方分享功能，提供统一调用接口
+  
+[![Build Status](https://travis-ci.org/JerryChu/ShareKit.svg?branch=master)](https://travis-ci.org/JerryChu/ShareKit)
 
 ### 特性
 - 接口统一，无需单独适配各个分享SDK
