@@ -16,8 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TencentSessionDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        // 使用官方demo提供的appid
+        // QQSDK官方demo提供的appid：222222
         let _ = TencentOAuth(appId: "222222", andDelegate: self)
+        
+        // 微信SDK官方demo提供的appid：wxd930ea5d5a258f4f，bundleid：com.tencent.xin.SDKSample
         WXApi.registerApp("wxd930ea5d5a258f4f", enableMTA: false)
         
         return true

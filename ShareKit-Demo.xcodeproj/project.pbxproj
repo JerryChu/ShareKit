@@ -283,13 +283,16 @@
 				TargetAttributes = {
 					F02F1E96213C25FB0059ABAE = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 					};
 					F02F1EAA213C25FC0059ABAE = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = F02F1E96213C25FB0059ABAE;
 					};
 					F02F1EB5213C25FC0059ABAE = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = F02F1E96213C25FB0059ABAE;
 					};
 				};
@@ -527,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LK6GS2WSHW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
@@ -541,11 +544,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/OpenSDK1.8.3_NoPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerrychu.sharekit.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.jerrychu.sharekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = commonDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShareKit-Demo-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -555,7 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LK6GS2WSHW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
@@ -569,11 +572,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/OpenSDK1.8.3_NoPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerrychu.sharekit.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.jerrychu.sharekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = commonDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShareKit-Demo-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -594,7 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareKit-Demo.app/ShareKit-Demo";
 			};
@@ -616,7 +619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareKit-Demo.app/ShareKit-Demo";
 			};
@@ -637,7 +640,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ShareKit-Demo";
 			};
@@ -658,7 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrychu.sharekit.demo.ShareKit-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "ShareKit-Demo";
 			};

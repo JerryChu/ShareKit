@@ -43,4 +43,4 @@
     - 分享缩略图数据大小限制为`1MB`
     - 分享链接URL长度限制为`512B`
 
-Demo中使用的appID都是官方Demo提供的appID，其中微信分享SDK会对bundleID做校验，官方Demo中的bundleID为 _com.tencent.wc.xin.SDKSample_。
+Demo中使用的appID都是官方Demo提供的appID，其中微信分享SDK会对bundleID做校验，官方Demo中的bundleID为 _com.tencent.xin.SDKSample_。
